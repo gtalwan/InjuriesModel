@@ -1,0 +1,7 @@
+component,definition
+u(t),training_load
+y(t),fatigue_index
+time index,session_id within athlete
+descriptive smoothing rule,3-session centered rolling mean for y(t)
+transition-validation smoothing rule,"3-session trailing rolling mean for y(t), used to avoid look-ahead leakage"
+injury-onset rule,injury_occurred == 2 following a previous session coded < 2

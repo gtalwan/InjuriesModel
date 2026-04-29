@@ -1,0 +1,10 @@
+metric,value
+athletes fit,156.0
+median alpha_hat,0.008918342775407664
+median rho_hat,0.6633103669626748
+median k_hat,0.3366896330373252
+median half-life (sessions),2.0587379872021474
+median athlete R^2,0.6130119066050252
+share alpha_hat > 0,0.9871794871794872
+share 0 < rho_hat < 1,1.0
+share k_hat > 0,1.0

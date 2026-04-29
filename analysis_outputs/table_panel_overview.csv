@@ -1,0 +1,9 @@
+metric,value
+observations,"15,420"
+athletes,156
+sessions per athlete (mean),98.85
+sessions per athlete (min-max),98-101
+session index span,1-101
+overall missingness (%) before imputation,0.641
+largest column missingness (%) before imputation,4.099 (training_intensity)
+non-unit session gaps detected,No

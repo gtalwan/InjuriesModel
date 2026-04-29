@@ -1,0 +1,4 @@
+metric,q4_vs_q1_risk_ratio
+3-session rolling workload,3.33993399339934
+Current workload u(t),2.0218818380743984
+Smoothed fatigue proxy y(t),9.85820895522388

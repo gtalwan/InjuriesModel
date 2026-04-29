@@ -1,0 +1,7 @@
+role,dataset column,note
+athlete_id,athlete_id,panel identifier
+time_var,session_id,ordered within-athlete session index
+injury_var,injury_occurred,"0=Healthy, 1=Low Risk, 2=Injured"
+u(t),training_load,main workload input
+y(t),fatigue_index,main observed fatigue proxy
+alternate workload proxy,training_intensity x training_duration,proxy check for workload construction

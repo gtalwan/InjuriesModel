@@ -1,0 +1,7 @@
+criterion,evidence,why_it_matters
+Athlete-level recovery-time heterogeneity,Half-life spans 1.37 to 5.22 sessions.,A pooled recovery parameter averages over athletes with materially different time scales.
+Stable multi-profile EM fit,"3-profile solution: best BIC = 1684.5, mean ARI = 0.952.",This supports structured heterogeneity rather than a single pooled population.
+Cluster-specific ODE dynamics differ,Cluster-specific k ranges from 0.241 to 0.385.,"Different latent profiles imply different recovery speeds, not just different burden levels."
+Pooled ODE is biased by latent profile,Pooled residual means range from -0.635 to 0.333 across clusters.,The single pooled ODE is systematically miscalibrated once latent profiles are ignored.
+Profiles validate on unused variables,"Top withheld effects: rec_post3 eta^2 = 0.298, sleep eta^2 = 0.189.",The profiles generalize beyond the fitting variables.
+Profiles are not obvious observed strata,"Sport p = 0.323, gender p = 0.665.",The group label is latent rather than a re-expression of sport or gender.

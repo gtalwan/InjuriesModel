@@ -1,0 +1,2 @@
+specification,response,alpha_hat,alpha_se,alpha_pvalue,y_coefficient_hat,y_coefficient_se,y_coefficient_pvalue,implied_k,r_squared,adj_r_squared,n_obs
+Past-smoothed derivative regression,delta y~_t,0.008800009069010847,0.0003497093812658692,9.98709098150094e-140,-0.3149638235017732,0.005156262520365794,0.0,0.3149638235017732,0.16542784137125055,0.16531846817701323,15264

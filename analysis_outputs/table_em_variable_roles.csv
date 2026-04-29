@@ -1,0 +1,11 @@
+variable,role,justification
+alpha_hat,primary EM input,Athlete-specific workload sensitivity from the preliminary ODE transition.
+half_life_sessions,primary EM input,Clinically interpretable recovery timescale derived from the ODE transition.
+r_squared,primary EM input,How coherent the athlete's local fatigue dynamics are under the simple transition model.
+injury_rate_injured,primary EM input,Empirical injury burden anchor so the profiles are not defined only by latent dynamics.
+mean_recovery_score,primary EM input,"Sustained recovery environment, averaged across the athlete's panel."
+mean_sleep_quality,withheld validation,"External recovery-context check, not used to define the clusters."
+mean_workload,withheld validation,Checks whether clusters differ in chronic exposure even when not clustered on workload directly.
+drop_y_5,withheld validation,Direct injury-onset recovery behavior after the latent profiles are estimated.
+rec_post3,withheld validation,Near-term post-onset recovery score used only to validate the fitted profiles.
+age / bmi / sport_type / gender,external annotation,Used to check whether the mixture is merely rediscovering demographic or sport strata.
